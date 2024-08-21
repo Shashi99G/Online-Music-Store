@@ -1,0 +1,120 @@
+@charset "ISO-8859-1";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	position: absolute;  
+}
+
+#feedbackForm{
+	padding-top: 0px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+}
+
+.feedback_Form{
+	background-color: rgba(255, 255, 255, 0.8);
+	margin-top: 90px;
+	box-shadow: 2px 5px 7px 2px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+    padding: 13px;
+    width: 31%;
+    margin-left: 940px;
+}
+
+.label{
+	font-size: 18px;
+}
+
+#feedback{
+	resize: none;
+	width: 310px;
+	border: 2px solid #000;
+	background: transparent;
+	height: 150px;
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+	padding-top: 5px;
+	font-weight: bolder;
+}
+
+
+#name{
+	width: 310px;
+	color: #000;
+}
+
+.email{
+	width: 310px;
+	color: #000;
+}
+
+.rating {
+    margin-top: 3px;
+    margin-bottom: 11px;
+}
+
+.stars {
+    font-size: 32px; 
+    color: blue; 
+    cursor: pointer;
+}
+
+.heading{
+	margin-bottom:15px;
+}
+
+.p1{
+	font-size: 20px;
+	color: rgb(128, 0, 255);
+	margin-bottom: 10px;
+	font-weight: bolder;
+}
+
+.inputfields input[type="email"], input[type="text"]{
+	border: 2px solid #000;
+	background: transparent;
+	height: 35px;
+	font-size: 16px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	font-weight: bolder;
+}
+
+
+.Submit{
+	cursor: pointer;
+	text-decoration: none;
+	color: #fff;
+	font-size: 22px;
+	border: 3px solid #fff;
+	background-color: rgb(128, 0, 255);
+	padding: 6px 12px 6px 12px;
+	font-weight: bolder;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Submit:hover {
+	color: #000;
+	border: 3px solid #fff;
+	background-color: rgb(64, 0, 128);
+	box-shadow: 4px 7px 10px 6px rgb(0, 0, 0, 0.2);
+}
+
+
+.p2{
+	font-size: 20px;
+}
